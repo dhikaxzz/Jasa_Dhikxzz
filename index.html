@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DHIKXZ JASA</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header class="header">
-        <a href="#" class="logo">Dhikxzz Dev.</a>
+        <a href="index.html" class="logo">Dhikxzz Dev.</a>
         
             <nav class="navbar">
-                <a href="#" class="active">Home</a>
-                <a href="#">About</a>
+                <a href="index.html" class="active">Home</a>
+                <a href="/About/index.html">About</a>
                 <a href="#">Service</a>
                 <a href="#">Portofolio</a>
-                <a href="#">Contact</a>
+                <a href="/Contact/index.html">Contact</a>
             </nav>
     </header>
 
     <section class="home">
-        <div class="home-content">
+        <div class="home-content" data-aos="fade-down">
             <h1>Hi, I'm Afdhika Syahputra</h1>
             <h3>Frontend Developer</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam alias reiciendis non voluptatum autem natus quae veniam laboriosam, incidunt aliquid corporis quasi laudantium totam repellendus praesentium.</p>
@@ -32,8 +33,8 @@
             </div>
         </div>
         
-                <div class="content">
-                    <img src="WhatsApp_Image_2024-01-23_at_12.59.38-removebg-preview.png">
+                <div class="content" data-aos="fade-left" data-aos-delay="550">
+                    <img src="/img/WhatsApp_Image_2024-01-23_at_12.59.38-removebg-preview.png">
                 </div>
         
         <div class="home-sci">
@@ -45,5 +46,10 @@
 
     </section>
 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
