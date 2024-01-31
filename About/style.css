@@ -94,7 +94,20 @@ body {
     gap: 200px;
 }
 
+.login-button{
+    padding: 7px 15px;
+    background-color: #00abf0;
+    color: #cdd9e2;
+    border-radius: 10px;
+}
 
+.login-button:hover{
+    padding: 9px 18px;
+    transition: 0.2s;
+    background-color: #fff;
+    color: #00abf0;
+    
+}
 
 
 

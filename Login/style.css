@@ -101,36 +101,60 @@ form{
     padding: 2rem 3rem;
     flex-direction: column;
     width: 100%;
-    gap: 5px;
+    gap: 10px;
     justify-content: center;
     color: #081b29;
 }
 
 
-
 form button{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin:  10px auto 0 auto;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
+form button:hover{
+    background-color: #081b29;
+    transition: 0.3s;
+}
+
 .form-container{
-    background-color: white;
+    background-color: #cdd9e2;
     border-radius: 30px;
     width: 40%;
     display: flex;
-    
+    }
 
+form input{
+    border-radius: 10px;    
+    padding: 5px 5px;
 }
 
+.form-container h1{
+    text-align: center;
+}
 
+.login-button{
+    padding: 7px 15px;
+    background-color: #00abf0;
+    color: #cdd9e2;
+    border-radius: 10px;
+}
+
+.login-button:hover{
+    padding: 9px 18px;
+    transition: 0.2s;
+    background-color: #fff;
+    color: #00abf0;
+    
+}
 
 
 
